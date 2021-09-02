@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'douyuFont';
+  src: url('./douyuFont.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+:root {
+    --mainColor: #12345678;
+}
+
+body {
+    color: var(--mainColor);
+    //font-family: system-ui;
+
+    font-family: douyuFont;
+    overflow-wrap: break-word;
+}
+
+.ab {
+    color: green;
+    display: flex;
+}
+.iconMan {
+    width: 500px;
+    height: 500px;
+    background-image: url("./ironman.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
